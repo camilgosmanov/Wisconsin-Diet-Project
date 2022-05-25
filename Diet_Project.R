@@ -60,3 +60,4 @@ gf_diet <- df[which((df$ATTRIBUTE_donor=="Germ_free") & (df$ATTRIBUTE_diet==diet
 
 write.csv(featuresTable,"features.csv",row.names = F)
 write.csv(subset,"subset.csv",row.names = F)
+
